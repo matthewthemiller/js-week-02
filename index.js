@@ -16,8 +16,7 @@ const invoke = () =>
 const helloWorld = () =>
   // rewrite the following block so
   // the string is returned
-  () => { return "Hello World" }
-
+  (() => { return "Hello World" })()
 
 const whatIsIt = () =>
   // make it true! what does void 0 equal?
