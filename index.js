@@ -34,8 +34,10 @@ const commaFTW = () =>
  */
 const buildingBlocks = () => (
   // change the next line to use block syntax
-  () => 'passing this test like a boss'
-)()
+  () => 
+  'passing this test like a boss'
+    )
+    ()
 
 
 const writeAFunction = () => (
@@ -65,9 +67,9 @@ const inlineComment = () =>
 
 const multiLineNoInline = () => {
   /* keep these lines commented, but
-  // change the syntax to a multiline comment
-  // and remove the inline syntax return */ 
-  (() => {return "a value"})()
+   change the syntax to a multiline comment
+     and remove the inline syntax return */ 
+     (() => {return "a value"})()
 }
 
 // that's all!
