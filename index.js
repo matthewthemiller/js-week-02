@@ -41,9 +41,8 @@ const buildingBlocks = () => (
 const writeAFunction = () => (
   // replace the empty string with a function
   // that returns any non-empty string
-  function itsAFunk () {
-    return "string";
-} 
+  ''
+)()
 
 
 const whatDoesItDo = () =>
