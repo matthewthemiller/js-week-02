@@ -7,18 +7,21 @@
 const invoke = () =>
   // invoke the following function so that
   // it returns the value 0
-  (() => 0)
+  (() =>
+     (() => 0
+      )() 
+    )()
 
 
 const helloWorld = () =>
   // rewrite the following block so
   // the string is returned
-  { "Hello World" }
+  () => { return "Hello World" }
 
 
 const whatIsIt = () =>
   // make it true! what does void 0 equal?
-  void 0 === ''
+  void 0 === 'underfined'
 
 
 const commaFTW = () =>
